@@ -85,7 +85,8 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="mailto:perezryanm@gmail.com" enctype="text/plain" netlify>
+								<form method="post" action="https://api.web3forms.com/submit">
+									<input type="hidden" name="access_key" value="655a889d-53b6-4f2a-b8c4-0c1513cb0b47">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -100,6 +101,7 @@
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
 									</div>
+									<input type="hidden" name="redirect" value="https://web3forms.com/success">
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
